@@ -5,8 +5,7 @@
   & .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -$pd-1;
-    margin-left: -$pd-1;
+
     flex-direction: row-reverse;
     & .pro-grli-wrap {
       & .collection-main-bg {
@@ -115,7 +114,7 @@
               cursor: pointer;
               &:hover {
                 color: $color-green;
-                & .cust-check{
+                & .cust-check {
                   border: 2px solid #999;
                 }
               }
@@ -138,6 +137,21 @@
             }
           }
         }
+      }
+    }
+
+    & .get-data-products {
+      & .product-view {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -30px;
+        & .st-col-item {
+          width: calc(50% - 30px);
+          margin-left: 30px;
+        }
+      }
+      & .product-image {
+        display: flex;
       }
     }
   }
