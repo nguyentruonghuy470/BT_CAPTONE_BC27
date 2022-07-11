@@ -194,6 +194,11 @@
             &:nth-child(2) {
               transition-delay: .1s;
             }
+            &:hover {
+              cursor: pointer;
+              background-color:$color-green ;
+              color: $color-white-3;
+            }
             color: $color-dark-1;
             height: 40px;
             width: 40px;

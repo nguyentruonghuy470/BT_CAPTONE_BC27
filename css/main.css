@@ -985,6 +985,12 @@ body {
           transition-delay: .1s;
 }
 
+.section-ptb .row .get-data-products .product-image .product-action a:hover {
+  cursor: pointer;
+  background-color: #275c53;
+  color: #fff;
+}
+
 .section-ptb .row .get-data-products .product-image .product-detail {
   padding: 15px;
   width: 100%;
